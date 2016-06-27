@@ -7,7 +7,6 @@ public class Sort {
 	}
 
 	public static void exch(Comparable[] arr, int i, int j) {
-	    System.err.println("交换");
 	    Comparable tmp = arr[i];
 		arr[i] = arr[j];
 		arr[j] = tmp;
