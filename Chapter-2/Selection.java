@@ -22,7 +22,6 @@ public class Selection extends Sort{
 				}
 			}
 			exch(arr, i, min);
-			System.out.println(Arrays.toString(arr));
         }        
     }
 }

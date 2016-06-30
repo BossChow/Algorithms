@@ -14,7 +14,6 @@ public class Insertion extends Sort {
 		    for (int j=i; j>0 && less(arr[j], arr[j-1]); j--) {
 			    exch(arr, j, j-1);
 			}
-			System.out.println(Arrays.toString(arr));
 		}
 	}
 }
